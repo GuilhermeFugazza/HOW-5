@@ -648,7 +648,7 @@ section { padding: 120px 0; }
   font-size: 1.6rem;
   margin-bottom: 16px;
 }
-.footer__brand p { font-size: 0.92rem; max-width: 280px; }
+.footer__brand p { font-size: 0.92rem; max-width: 280px; color: rgba(255,255,255,0.75);}
 .footer__col h4 {
   color: var(--white);
   font-family: 'Inter', sans-serif;
