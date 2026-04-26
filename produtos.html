@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo completo de cafés especiais Konia Coffee.">
+  <title>Cafés | Konia Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Konia<span>.</span></a>
+      <button class="nav__toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu">
+        <li><a href="index.html" data-page="index.html">Início</a></li>
+        <li><a href="produtos.html" data-page="produtos.html">Cafés</a></li>
+        <li><a href="consultoria.html" data-page="consultoria.html">Consultoria</a></li>
+        <li><a href="sobre.html" data-page="sobre.html">Sobre</a></li>
+        <li><a href="contato.html" class="nav__cta">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <div class="page-header__inner reveal">
+        <div class="breadcrumb">Início <span>/</span> Cafés</div>
+        <h1>Catálogo de cafés <em style="font-style:italic; color:var(--green);">especiais</em>.</h1>
+        <p>Microlotes, blends autorais e edições limitadas. Cada rótulo é um convite para explorar o universo do café de especialidade.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="filters reveal">
+        <button class="filter is-active" data-filter="all">Todos</button>
+        <button class="filter" data-filter="microlote">Microlotes</button>
+        <button class="filter" data-filter="blend">Blends</button>
+        <button class="filter" data-filter="limitada">Edição Limitada</button>
+        <button class="filter" data-filter="descafeinado">Descafeinado</button>
+      </div>
+
+      <div class="products">
+        <article class="product reveal" data-category="microlote">
+          <div class="product__img">
+            <span class="product__tag">Microlote</span>
+            <svg viewBox="0 0 120 160" aria-hidden="true"><ellipse cx="60" cy="80" rx="42" ry="68" fill="#1B3A2B"/><path d="M60 14 Q 44 80 60 146" stroke="#FAF7F2" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="product__origin">Mantiqueira · MG</div>
+          <h3 class="product__name">Fazenda Santo Antônio</h3>
+          <p class="product__notes">Chocolate ao leite, caramelo, nozes</p>
+          <div class="product__price">R$ 68,00 · 250g</div>
+        </article>
+
+        <article class="product reveal" data-category="limitada">
+          <div class="product__img">
+            <span class="product__tag">Edição Limitada</span>
+            <svg viewBox="0 0 120 160" aria-hidden="true"><ellipse cx="60" cy="80" rx="42" ry="68" fill="#1B3A2B"/><path d="M60 14 Q 44 80 60 146" stroke="#FAF7F2" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="product__origin">Cerrado · MG</div>
+          <h3 class="product__name">Natural Amarelo</h3>
+          <p class="product__notes">Mel, tangerina, baunilha</p>
+          <div class="product__price">R$ 84,00 · 250g</div>
+        </article>
+
+        <article class="product reveal" data-category="blend">
+          <div class="product__img">
+            <span class="product__tag">Signature</span>
+            <svg viewBox="0 0 120 160" aria-hidden="true"><ellipse cx="60" cy="80" rx="42" ry="68" fill="#1B3A2B"/><path d="M60 14 Q 44 80 60 146" stroke="#FAF7F2" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="product__origin">Blend Konia</div>
+          <h3 class="product__name">House Blend</h3>
+          <p class="product__notes">Cacau, avelã, final doce</p>
+          <div class="product__price">R$ 52,00 · 250g</div>
+        </article>
+
+        <article class="product reveal" data-category="microlote">
+          <div class="product__img">
+            <span class="product__tag">Microlote</span>
+            <svg viewBox="0 0 120 160" aria-hidden="true"><ellipse cx="60" cy="80" rx="42" ry="68" fill="#1B3A2B"/><path d="M60 14 Q 44 80 60 146" stroke="#FAF7F2" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="product__origin">Sul de Minas · MG</div>
+          <h3 class="product__name">Catuaí Vermelho</h3>
+          <p class="product__notes">Frutas amarelas, açúcar mascavo</p>
+          <div class="product__price">R$ 72,00 · 250g</div>
+        </article>
+
+        <article class="product reveal" data-category="blend">
+          <div class="product__img">
+            <span class="product__tag">Espresso</span>
+            <svg viewBox="0 0 120 160" aria-hidden="true"><ellipse cx="60" cy="80" rx="42" ry="68" fill="#1B3A2B"/><path d="M60 14 Q 44 80 60 146" stroke="#FAF7F2" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="product__origin">Blend Konia</div>
+          <h3 class="product__name">Espresso Forte</h3>
+          <p class="product__notes">Chocolate amargo, especiarias</p>
+          <div class="product__price">R$ 58,00 · 250g</div>
+        </article>
+
+        <article class="product reveal" data-category="limitada">
+          <div class="product__img">
+            <span class="product__tag">Nano lote</span>
+            <svg viewBox="0 0 120 160" aria-hidden="true"><ellipse cx="60" cy="80" rx="42" ry="68" fill="#1B3A2B"/><path d="M60 14 Q 44 80 60 146" stroke="#FAF7F2" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="product__origin">Chapada Diamantina · BA</div>
+          <h3 class="product__name">Bourbon Amarelo Fermentado</h3>
+          <p class="product__notes">Frutas tropciais, mel, floral</p>
+          <div class="product__price">R$ 128,00 · 250g</div>
+        </article>
+
+        <article class="product reveal" data-category="descafeinado">
+          <div class="product__img">
+            <span class="product__tag">Descafeinado</span>
+            <svg viewBox="0 0 120 160" aria-hidden="true"><ellipse cx="60" cy="80" rx="42" ry="68" fill="#1B3A2B"/><path d="M60 14 Q 44 80 60 146" stroke="#FAF7F2" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="product__origin">Cerrado · MG</div>
+          <h3 class="product__name">Descafeinado Natural</h3>
+          <p class="product__notes">Chocolate, amendoim, doce</p>
+          <div class="product__price">R$ 66,00 · 250g</div>
+        </article>
+
+        <article class="product reveal" data-category="microlote">
+          <div class="product__img">
+            <span class="product__tag">Microlote</span>
+            <svg viewBox="0 0 120 160" aria-hidden="true"><ellipse cx="60" cy="80" rx="42" ry="68" fill="#1B3A2B"/><path d="M60 14 Q 44 80 60 146" stroke="#FAF7F2" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="product__origin">Mantiqueira · MG</div>
+          <h3 class="product__name">Geisha Reserva</h3>
+          <p class="product__notes">Jasmim, bergamota, chá preto</p>
+          <div class="product__price">R$ 186,00 · 250g</div>
+        </article>
+
+        <article class="product reveal" data-category="blend">
+          <div class="product__img">
+            <span class="product__tag">Blend</span>
+            <svg viewBox="0 0 120 160" aria-hidden="true"><ellipse cx="60" cy="80" rx="42" ry="68" fill="#1B3A2B"/><path d="M60 14 Q 44 80 60 146" stroke="#FAF7F2" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="product__origin">Blend Konia</div>
+          <h3 class="product__name">Cold Brew</h3>
+          <p class="product__notes">Especial para método frio</p>
+          <div class="product__price">R$ 62,00 · 250g</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-strip">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow" style="color:rgba(255,255,255,0.7);">Atacado & Cafeterias</span>
+        <h2>Sua cafeteria merece<br>o melhor do Brasil.</h2>
+        <p>Condições diferenciadas para cafeterias, restaurantes e empresas. Amostras disponíveis mediante solicitação.</p>
+        <a href="contato.html" class="btn btn--primary">Solicitar amostras <span class="btn__arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3>Konia<span style="color:var(--green-soft); font-style:italic;">.</span></h3>
+          <p>Cafés especiais selecionados e consultoria estratégica para cafeterias que buscam excelência.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="produtos.html">Cafés</a></li>
+            <li><a href="consultoria.html">Consultoria</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contato</h4>
+          <ul>
+            <li>+55 47 93381-3564</li>
+            <li>coffeekonia@gmail.com</li>
+            <li>@konia_coffee</li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Social</h4>
+          <ul>
+            <li><a href="https://instagram.com/konia_coffee" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://wa.me/5547933813564" target="_blank" rel="noopener">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Konia Coffee. Todos os direitos reservados.</span>
+        <span>Projeto Integrador Extensionista</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

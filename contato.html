@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com a Konia Coffee. Cafés especiais e consultoria.">
+  <title>Contato | Konia Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Konia<span>.</span></a>
+      <button class="nav__toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu">
+        <li><a href="index.html" data-page="index.html">Início</a></li>
+        <li><a href="produtos.html" data-page="produtos.html">Cafés</a></li>
+        <li><a href="consultoria.html" data-page="consultoria.html">Consultoria</a></li>
+        <li><a href="sobre.html" data-page="sobre.html">Sobre</a></li>
+        <li><a href="contato.html" class="nav__cta">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <div class="page-header__inner reveal">
+        <div class="breadcrumb">Início <span>/</span> Contato</div>
+        <h1>Vamos tomar um <em style="font-style:italic; color:var(--green);">café</em>?</h1>
+        <p>Estamos à disposição para atender pedidos, esclarecer dúvidas, receber produtores e conversar sobre consultoria. Escolha o canal que preferir.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <h3>Canais<br>de atendimento.</h3>
+          <ul class="contact__list">
+            <li>
+              <span class="contact__label">Telefone · WhatsApp</span>
+              <a href="https://wa.me/5547933813564" class="contact__value">+55 47 93381-3564</a>
+            </li>
+            <li>
+              <span class="contact__label">E mail</span>
+              <a href="mailto:coffeekonia@gmail.com" class="contact__value">coffeekonia@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact__label">Instagram</span>
+              <a href="https://instagram.com/konia_coffee" target="_blank" rel="noopener" class="contact__value">@konia_coffee</a>
+            </li>
+            <li>
+              <span class="contact__label">Atendimento</span>
+              <span class="contact__value">Seg. a Sáb. · 9h às 18h</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form reveal" data-form novalidate>
+          <div class="form__msg">Mensagem enviada com sucesso. Entraremos em contato em breve.</div>
+          <div class="form__row">
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+            </div>
+            <div class="field">
+              <label for="email">E mail</label>
+              <input type="email" id="email" name="email" required placeholder="voce@exemplo.com">
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+            </div>
+            <div class="field">
+              <label for="assunto">Assunto</label>
+              <select id="assunto" name="assunto" required>
+                <option value="">Selecione</option>
+                <option value="catalogo">Pedido do catálogo</option>
+                <option value="consultoria">Consultoria para cafeteria</option>
+                <option value="atacado">Atacado · Cafeteria</option>
+                <option value="parceria">Parceria · Fornecedor</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required placeholder="Conte nos como podemos ajudar..."></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn btn--primary">Enviar mensagem <span class="btn__arrow">→</span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--dark section--tight">
+    <div class="container">
+      <div class="section__head center reveal">
+        <span class="eyebrow">Atendimento prioritário</span>
+        <h2>Prefere falar agora?</h2>
+        <p>Responda pelo WhatsApp, o canal mais rápido para pedidos, amostras e dúvidas técnicas.</p>
+        <div style="margin-top:32px;">
+          <a href="https://wa.me/5547933813564" target="_blank" rel="noopener" class="btn btn--primary" style="background:var(--white); color:var(--green-dark);">Abrir WhatsApp <span class="btn__arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3>Konia<span style="color:var(--green-soft); font-style:italic;">.</span></h3>
+          <p>Cafés especiais selecionados e consultoria estratégica para cafeterias que buscam excelência.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="produtos.html">Cafés</a></li>
+            <li><a href="consultoria.html">Consultoria</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contato</h4>
+          <ul>
+            <li>+55 47 93381-3564</li>
+            <li>coffeekonia@gmail.com</li>
+            <li>@konia_coffee</li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Social</h4>
+          <ul>
+            <li><a href="https://instagram.com/konia_coffee" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://wa.me/5547933813564" target="_blank" rel="noopener">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Konia Coffee. Todos os direitos reservados.</span>
+        <span>Projeto Integrador Extensionista</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
